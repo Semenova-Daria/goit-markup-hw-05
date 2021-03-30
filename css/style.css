@@ -115,12 +115,13 @@ button {
   color: var(--accent-color);
 
   display: block;
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: var(--active-color);
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .active-link {
@@ -149,7 +150,6 @@ button {
 .address-tel {
   display: flex;
   align-items: center;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .address-tel-img {
@@ -175,7 +175,6 @@ button {
 .address-item-header:focus {
   color: var(--active-color);
   fill: var(--active-color);
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .address-list:not(:last-child) {
@@ -197,6 +196,8 @@ button {
 
   display: flex;
   align-items: center;
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* logo */
@@ -307,12 +308,13 @@ button {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .contact-footer:hover,
 .contact-footer:focus {
   color: var(--active-color);
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .logo-studio-footer {
@@ -602,25 +604,27 @@ button {
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
   background: var(--active-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: #ffffff;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .social-list-icon {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 /* ===============END OUR TEAM============ */
 
@@ -659,6 +663,8 @@ button {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .client-item {
@@ -683,18 +689,18 @@ button {
 
 .client-icon {
   fill: #afb1b8;
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .client-link:focus,
 .client-link:hover {
   border: 1px solid var(--active-color);
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .client-link:focus .client-icon,
 .client-link:hover .client-icon {
   fill: var(--active-color);
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* ===============END CLIENT================ */
@@ -723,6 +729,8 @@ button {
 .filters-list-item {
   margin-right: 8px;
   border-radius: 4px;
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .filters-list-item:focus,
@@ -730,7 +738,6 @@ button {
   color: var(--active-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .modal-btn-portfolio {
@@ -749,6 +756,8 @@ button {
   color: #212121;
 
   padding: 6px 22px;
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .modal-btn-portfolio:hover,
@@ -758,7 +767,6 @@ button {
   outline: none;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* ==================== PROJECTS ========== */
@@ -771,7 +779,6 @@ button {
 .projects-link:hover,
 .projects-link:focus {
   color: var(--active-color);
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .projects-list {
@@ -785,6 +792,12 @@ button {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.projects-list-item {
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .projects-list-item:hover,
@@ -793,7 +806,6 @@ button {
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .projects-list-item:not(last-child) {
@@ -902,6 +914,7 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .close-icon {
